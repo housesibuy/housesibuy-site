@@ -134,8 +134,8 @@
     =================================================== */
     :root {
       --navy:        #262625;
-      --navy-mid:    #262625;
-      --navy-light:  #262625;
+      --navy-mid:    #333332;
+      --navy-light:  #40403f;
       --green:       #10B981;
       --green-dark:  #059669;
       --green-glow:  rgba(16,185,129,0.18);
@@ -1998,6 +1998,8 @@
         .catch(function() {
           btn.textContent = 'Get My Cash Offer →';
           btn.disabled = false;
+// Recommend adding a temporary fallback message so the user knows to retry or call
+  alert("Something went wrong. Please try again or call us directly at (469) 838-3836!");
         });
       });
 
